@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sueldo quincenal</title>
+</head>
+<body>
+    <h1>Cálculo de sueldo quincenal</h1>
+    <form action="sueldo.php" method="post">
+        <p>Nombre: <input type="text" name="nombre" required></p>
+        <p>Cédula: <input type="text" name="cedula" required></p>
+        <p>Horas diurnas: <input type="number" name="diurnas" min="0" step="any" value="0"></p>
+        <p>Horas vespertinas: <input type="number" name="vespertinas" min="0" step="any" value="0"></p>
+        <p>Horas nocturnas: <input type="number" name="nocturnas" min="0" step="any" value="0"></p>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
